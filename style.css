@@ -117,7 +117,7 @@
     padding: 20px;
     text-align: center;
     min-height: 100px;
-    height: 260px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -151,12 +151,12 @@
     padding: 20px;
     text-align: center;
     min-height: 100px;
-    height: 280px;
+    height: 300px;
     padding: 10px;
 }
 
 .service-card img {
-    max-width: 130px;
+    max-width: 150px;
     height: auto;
 }
 
