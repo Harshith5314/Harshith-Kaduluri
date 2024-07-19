@@ -1,0 +1,233 @@
+/* Default styles for all screen sizes */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    color: white;
+}
+
+.anchor {
+    margin-left: auto;
+}
+
+.hars-logo {
+    height: auto;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.hars-anchor {
+    color: white !important;
+    padding-right: 20px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hars-anchor:hover {
+    color: rgb(40, 214, 40) !important;
+    transform: scale(1.09);
+}
+
+.hars-harshith {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.hars-harshith-para {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: 100;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    word-spacing: 3px;
+}
+
+.hars-body {
+    background-image: url('https://res.cloudinary.com/harshith1323/image/upload/v1721285282/background_i3jlvm.jpg');
+    background-size: cover;
+    height: auto;
+}
+
+.left-body {
+    padding-left: 100px !important;
+    color: white;
+    padding-top: 40px !important;
+}
+
+.body-section {
+    padding-top: 100px;
+    text-align: center;
+    height: 80vh;
+}
+
+.link-span {
+    text-decoration: none !important;
+    color: rgb(40, 214, 40) !important;
+}
+
+.about-head{
+    text-align: center;
+}
+
+.about-h1 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.about-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+}
+
+.project-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.about-p {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: 100;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    word-spacing: 3px;
+}
+.pandaga-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.pandaga-p:hover {
+    color: rgb(40, 214, 40) !important;
+}
+
+.project-p {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: 100;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    word-spacing: 3px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+    height: 260px;
+    padding: 10px;
+}
+
+.project-card img {
+    max-width: 150px;
+    height: auto;
+}
+
+.project-card:hover {
+    border: 2px solid green;
+    transform: scale(1.05);
+}
+.project-logo{
+    height: 40px;
+    padding-right: 10px;
+}
+
+.service-p {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: 100;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    word-spacing: 3px;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+    height: 280px;
+    padding: 10px;
+}
+
+.service-card img {
+    max-width: 130px;
+    height: auto;
+}
+
+.service-card:hover {
+    border: 2px solid green;
+    transform: scale(1.05);
+}
+
+.social-icon {
+    height: 50px;
+    padding-right: 20px;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Adjust your styles for mobile devices here */
+    .hars-logo {
+        height: 80px;
+        padding-left: 10px;
+    }
+
+    .hars-anchor {
+        padding-right: 10px !important;
+        font-size: 14px;
+    }
+
+    .hars-harshith {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hars-harshith-para {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .body-section {
+        padding-top: 50px;
+    }
+
+    .about-h1 {
+        font-size: 40px;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .about-p {
+        font-size: 20px;
+    }
+
+    .project-p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .project-card {
+        min-height: auto;
+        padding: 10px;
+    }
+    .body-section {
+        height: auto;
+
+    }
+    .left-body {
+        padding-left: 0px !important;
+        padding: 20px !important;
+    }
+}
